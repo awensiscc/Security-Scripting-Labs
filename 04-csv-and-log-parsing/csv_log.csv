@@ -1,0 +1,3 @@
+timestamp,host,user,ip,event
+01/01/2025 10:05,server1,root,203.0.113.55,Failed password
+01/01/2025 10:06,server1,root,189.1.112.225,Failed password

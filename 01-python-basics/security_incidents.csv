@@ -1,0 +1,13 @@
+incident_id,timestamp,source_ip,destination_ip,attack_type,severity,blocked,username
+INC-001,2025-01-15 09:15:23,203.0.113.45,10.0.0.100,Brute Force,High,Yes,admin
+INC-002,2025-01-15 09:18:45,198.51.100.22,10.0.0.100,Brute Force,High,Yes,admin
+INC-003,2025-01-15 09:22:11,203.0.113.45,10.0.0.101,SQL Injection,Critical,Yes,N/A
+INC-004,2025-01-15 09:25:33,192.0.2.15,10.0.0.102,Port Scan,Medium,No,N/A
+INC-005,2025-01-15 09:30:44,203.0.113.45,10.0.0.100,Brute Force,High,Yes,root
+INC-006,2025-01-15 09:35:12,198.51.100.22,10.0.0.103,XSS Attack,High,Yes,N/A
+INC-007,2025-01-15 09:40:28,192.0.2.15,10.0.0.102,Port Scan,Medium,No,N/A
+INC-008,2025-01-15 09:45:55,203.0.113.45,10.0.0.100,Brute Force,High,Yes,administrator
+INC-009,2025-01-15 09:50:17,198.51.100.33,10.0.0.104,DDoS,Critical,Yes,N/A
+INC-010,2025-01-15 09:55:42,203.0.113.45,10.0.0.100,Brute Force,High,Yes,admin
+INC-011,2025-01-15 10:00:03,192.0.2.15,10.0.0.105,Malware,Critical,Yes,N/A
+INC-012,2025-01-15 10:05:29,198.51.100.22,10.0.0.100,Brute Force,High,Yes,guest

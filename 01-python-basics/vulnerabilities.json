@@ -1,0 +1,69 @@
+{
+  "scan_info": {
+    "scan_id": "SCAN-2025-001",
+    "timestamp": "2025-01-15T10:30:00Z",
+    "scanner": "VulnScanner v2.1"
+  },
+  "findings": [
+    {
+      "host": "web-server-01",
+      "ip": "10.0.1.10",
+      "vulnerability": "SQL Injection",
+      "severity": "Critical",
+      "cvss_score": 9.8,
+      "port": 443,
+      "service": "HTTPS",
+      "description": "SQL injection vulnerability in login form"
+    },
+    {
+      "host": "web-server-01",
+      "ip": "10.0.1.10",
+      "vulnerability": "Cross-Site Scripting (XSS)",
+      "severity": "High",
+      "cvss_score": 7.2,
+      "port": 443,
+      "service": "HTTPS",
+      "description": "Reflected XSS in search parameter"
+    },
+    {
+      "host": "db-server-01",
+      "ip": "10.0.2.20",
+      "vulnerability": "Weak Encryption",
+      "severity": "Medium",
+      "cvss_score": 5.3,
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Database supports weak SSL/TLS ciphers"
+    },
+    {
+      "host": "mail-server-01",
+      "ip": "10.0.3.30",
+      "vulnerability": "Outdated Software",
+      "severity": "High",
+      "cvss_score": 8.1,
+      "port": 25,
+      "service": "SMTP",
+      "description": "Mail server running EOL software version"
+    },
+    {
+      "host": "web-server-02",
+      "ip": "10.0.1.11",
+      "vulnerability": "Missing Security Headers",
+      "severity": "Low",
+      "cvss_score": 3.1,
+      "port": 80,
+      "service": "HTTP",
+      "description": "Missing X-Frame-Options and CSP headers"
+    },
+    {
+      "host": "db-server-01",
+      "ip": "10.0.2.20",
+      "vulnerability": "Default Credentials",
+      "severity": "Critical",
+      "cvss_score": 9.1,
+      "port": 3306,
+      "service": "MySQL",
+      "description": "Database accessible with default admin credentials"
+    }
+  ]
+}

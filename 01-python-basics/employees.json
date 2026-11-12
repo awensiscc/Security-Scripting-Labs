@@ -1,0 +1,44 @@
+{
+	"employees": [
+	{
+		"Name": "John Flynn",
+		"DOB": "4/5/89",
+		"id": 4007,
+		"Email": "john@example.com",
+		"Duties": ["Office admin", "Filing", "Customer Service"],
+		"Address": {
+	    		"Address1": "21 Jones Avenue",
+	    		"Address2": "Ballybrack",
+	    		"Address3": "Co. Dublin"
+		}
+	},
+	{
+		"Name": "Mary Fitzgerald",
+		"DOB": "11/7/87",
+		"id": 4012,
+		"Email": "mary@example.com",
+		"Duties": ["Web Development", "Devops", "Debugging"],
+		"Address": {
+			"Address1": "81 Blackwater Road",
+			"Address2": "Artane",
+			"Address3": "Dublin 5"
+		}
+	},
+	{
+		"Name": "Bob Martin",
+		"DOB": "10/7/79",
+		"id": 4015,
+		"Email": "bob@example.com",
+		"Duties": ["Application Development", "Web Design", "Tea Maker"],
+		"Address": {
+			"Address1": "Angelsea House",
+			"Address2": "Rathdrum",
+			"Address3": "Co. Wicklow"
+		}
+	}]
+}
+
+
+
+
+
