@@ -5,6 +5,8 @@ Cybersecurity & Digital Forensics, TU Dublin (Year 2, Sept to Dec 2025). Python 
 for everyday security tasks: parsing logs, hashing files and checking indicators against threat
 intelligence APIs.
 
+**Individual work.** The lecturer set the exercises; this repo holds my own work through them, week by week. The module's pair project, built on these labs, is [BeSecure](https://github.com/awensiscc/BeSecure).
+
 | Folder | What it covers |
 |---|---|
 | `01-python-basics` | Warm-up exercises (A1 to C3), parsing JSON/CSV/log files |
